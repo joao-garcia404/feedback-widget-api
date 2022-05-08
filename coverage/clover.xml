@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1652045731393" clover="3.2.0">
-  <project timestamp="1652045731393" name="All files">
+<coverage generated="1652047831610" clover="3.2.0">
+  <project timestamp="1652047831610" name="All files">
     <metrics statements="47" coveredstatements="47" conditionals="7" coveredconditionals="7" methods="2" coveredmethods="2" elements="56" coveredelements="56" complexity="0" loc="47" ncloc="47" packages="1" files="1" classes="1"/>
     <file name="submit-feedback-useCase.ts" path="/home/vader/Documents/www/code/feedback-widget-api/src/useCases/submit-feedback-useCase.ts">
       <metrics statements="47" coveredstatements="47" conditionals="7" coveredconditionals="7" methods="2" coveredmethods="2"/>

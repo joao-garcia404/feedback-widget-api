@@ -14,7 +14,7 @@ describe("Submit feedback", () => {
       submitFeedback.execute({
         type: "BUG",
         comment: "Tudo errado e bugado",
-        screenshot: "data:/image/png;base64,9352893y5",
+        screenshot: "data:image/png;base64,9352893y5",
       })
     ).resolves.not.toThrow();
 
@@ -27,7 +27,7 @@ describe("Submit feedback", () => {
       submitFeedback.execute({
         type: "",
         comment: "Tudo errado e bugado",
-        screenshot: "data:/image/png;base64,9352893y5",
+        screenshot: "data:image/png;base64,9352893y5",
       })
     ).rejects.toThrow();
   });
